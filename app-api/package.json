@@ -1,0 +1,48 @@
+
+{
+  "name": "messaging-app",
+  "version": "1.0.0",
+  "description": "A messaging app to send receive messages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha tests/**"
+  },
+  "keywords": [
+    "base",
+    "project",
+    "node",
+    "express",
+    "structure"
+  ],
+  "author": "Bahram Hajian.",
+  "license": "Bahram",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "cookie-parser": "1.4.3",
+    "debug": "2.2.0",
+    "ejs": "~2.3.3",
+    "express": "^4.12.3",
+    "jade": "^1.9.2",
+    "passport": "*",
+    "passport-local": "*",
+    "connect-redis": "*",
+    "redis": "*",
+    "express-session": "*",
+    "morgan": "*",
+    "connect-ensure-login": "*",
+    "serve-favicon": "*",
+    "mysql": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "rsmq": "*",
+    "rsmq-worker": "*",
+    "ws": "*",
+    "mongoose-auto-increment": "*",
+    "tokens2": "*"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  }
+}
